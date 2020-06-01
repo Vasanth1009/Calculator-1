@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+    font-style: bold;
+}
+body{
+    background:black;
+}
+#main{
+    width: 80%;
+    height:110%; 
+    margin:-78px 140px;
+    background-position: center;
+    background-image: url(bc.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.cal{
+    width: 320px;
+    height: 520px;
+    background-color:#eaedef;
+    margin: 100px auto;
+    top:20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.textview{
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    font-size: 25px;
+    padding: 15px;
+    border: none;  
+}
+.bt{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin: 17px 13px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: black;
+    font-style: bold;
+    background-color:#eaedef ;
+    border: none;
+    outline: none;
+}
+#vd{
+    background-color: aqua;
+}
+#vm{
+    background-color: orange;
+}
+#vs{
+    font-size: 40px;
+    background-color: tomato;
+}
+#va{
+    font-size: 35px;
+    background-color: cornflowerblue;
+}
+#ve{
+    background-color: sienna;
+}
+#vp{
+    background-color: yellowgreen;
+}
+#vc{
+    font-size: 25px;
+    background-color: pink;
+}
+#vca{
+    font-size: 25px;
+    background-color: yellow;
+}
+#vo{
+    font-size: 40px;
+    background-color: gainsboro;
+}

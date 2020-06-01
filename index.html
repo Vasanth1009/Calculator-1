@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <div class="bg"></div>
+        <div id="main">
+            <div class="cal">
+                <form name="form">
+                    <input type="text" class="textview" name="textview">
+                </form>
+                <table>
+                    <tr>
+                        <td><input class="bt" type="button" id="vca" value="CA" onclick="clean()"></td>
+                        <td><input class="bt" type="button" id="vc" value="C" onclick="back()"></td>
+                        <td><input class="bt" type="button" id="vp" value="%" onclick="insert('%')"></td>
+                        <td><input class="bt" type="button" id="vd" value="/" onclick="insert('/')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="bt" type="button" id="v7" name="val" value="7" onclick="insert(7)"></td>
+                        <td><input class="bt" type="button" id="v8" name="val" value="8" onclick="insert(8)"></td>
+                        <td><input class="bt" type="button" id="v9" name="val" value="9" onclick="insert(9)"></td>
+                        <td><input class="bt" type="button" id="vm" value="x" onclick="insert('*')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="bt" type="button" id="v4" name="val" value="4" onclick="insert(4)"></td>
+                        <td><input class="bt" type="button" id="v5" name="val" value="5" onclick="insert(5)"></td>
+                        <td><input class="bt" type="button" id="v6" name="val" value="6" onclick="insert(6)"></td>
+                        <td><input class="bt" type="button" id="vs" value="-" onclick="insert('-')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="bt" type="button" id="v1" name="val" value="1" onclick="insert(1)"></td>
+                        <td><input class="bt" type="button" id="v2" name="val" value="2" onclick="insert(2)"></td>
+                        <td><input class="bt" type="button" id="v3" name="val" value="3" onclick="insert(3)"></td>
+                        <td><input class="bt" type="button" id="va" value="+" onclick="insert('+')"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="bt" type="button" id="v00" name="val" value="00" onclick="insert('00')"></td>
+                        <td><input class="bt" type="button" id="v0" name="val" value="0" onclick="insert(0)"></td>
+                        <td><input class="bt" type="button" id="vo" value="." onclick="insert('.')"></td>
+                        <td><input class="bt" type="button" id="ve" value="=" onclick="equal()"></td>
+
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+    </body>
+</html>
